@@ -1,0 +1,1 @@
+In Objective-C, a common yet subtle error arises when dealing with `NSManagedObjectContext` and its interaction with threads.  Specifically, attempting to perform operations on a context from a thread other than the one it was created on can lead to crashes or unpredictable behavior. This is because `NSManagedObjectContext` is not inherently thread-safe.
